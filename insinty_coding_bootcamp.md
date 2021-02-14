@@ -97,7 +97,7 @@ For example, to search for first and last names in this text, all that is needed
 
 ### Exercise 3 
 
-You can also extract numbers and special characters from text by writing this in your regular expression statement: `[1234567890]`, or: `[0-9]`. Searching for `[0-9]+` will return any number between 0 and 9 *until* it reaches another character that is not 0 through 9. For example, if you had the string `Name: Robert, Phone: 832-907-1283, State: Indiana` and you apply the `[0-9]+`, the search will return either just `832`, or `832` and `907` and `1283` individually. Try it out for yourself:
+You can also extract numbers and special characters from text by writing this in your regular expression statement: `[1234567890]`, or: `[0-9]`. Searching for `[0-9]+` will return any number between 0 and 9 *until* it reaches another character that is not 0 through 9. For example, if you had the string `Name: Robert, Phone: 832-907-1283, State: Indiana` and you apply the `[0-9]+`, the search will return either just `832`, or `832` and `907` and `1283` individually. Try it out for yourself by copying and pasting the text below into the TEST STRING on regex101.com:
 
     Name: Robert, Phone: 832-907-1283, State: Indiana
 
@@ -107,9 +107,31 @@ But what if you want the whole phone number intact, including the dashes? There 
 * `[0-9]{3}-[0-9]{3}-[0-9]{4}` will return a sequence of three back-to-back numbers followed by a dash, followed by another sequence of three numbers and another dash, and finally a sequence of four numbers
 * There are many more ways of pattern matching on this string that you can try out for yourself on regex101.com
 
+![String search](images/string2.png "String search")
+
+## L: Running Code
+
+To run code in Python you need a Python script and a way to call the script. Let's start with the first by writing several "Print" statements
+
+### Exercise 1
+
+In your editor write the following and save to ex1.py in your working directory:
+
+    print("This is a sentence!")
+
+    print('The "Print" statement is a Python command, telling the Python engine to do something')
+
+    print('In this case, it is telling Python to "Print" everything we put inside the paranthesis back to the console, so you can read it')
+
+    print("Note what happens if we print like this:")
+
+    print()
+
+    print("A new line was created, but nothing else!")
 
 
-## L: Print
+
+
 
 
 ## L: Strings + concatonation
