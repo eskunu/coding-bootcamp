@@ -132,7 +132,7 @@ In your editor write the following and save to ex1.py in your working directory:
 
 Save the code above to ex1.py. Open PowerShell.exe using the instructions above. Within the PowerShell terminal type `cd` followed by a space and your working directory (remember these steps as you'll have to repeat them many times) like this: `cd C:\Users\directory\directory\`. Once you are in the directory containing your script simply type `python.exe ex1.py` in PowerShell.
 
-
+![String search](images/string3.png "String search")
 
 ## L: Strings + concatonation
 ## L: Variables
