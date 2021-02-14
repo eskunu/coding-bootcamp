@@ -97,9 +97,15 @@ For example, to search for first and last names in this text, all that is needed
 
 ### Exercise 3 
 
-You can also extract numbers and special characters from text by writing this in your regular expression statement: `[1234567890]`, or: `[0-9]`. Searching for `[0-9]+` will return any number between 0 and 9 *until* it reaches another character that is not 0 through 9. For example, if you had the username `Name: Robert, Phone: 832-907-1283, State: Indiana` and you apply the `[0-9]+`, the search will return either just `832`, or `832` and `907` and `1283` individually. Try it out for yourself:
+You can also extract numbers and special characters from text by writing this in your regular expression statement: `[1234567890]`, or: `[0-9]`. Searching for `[0-9]+` will return any number between 0 and 9 *until* it reaches another character that is not 0 through 9. For example, if you had the string `Name: Robert, Phone: 832-907-1283, State: Indiana` and you apply the `[0-9]+`, the search will return either just `832`, or `832` and `907` and `1283` individually. Try it out for yourself:
 
     Name: Robert, Phone: 832-907-1283, State: Indiana
+
+But what if you want the whole phone number intact, including the dashes? There are several methods for getting this information.
+
+* `[-0-9]+` will return any sequence of characters that matches a dash and a number. However, this can be somewhat imprecise for complex or unformatted data structures.
+* `[0-9]{3}-[0-9]{3}-[0-9]{4}` will return a sequence of three back-to-back numbers followed by a dash, followed by another sequence of three numbers and another dash, and finally a sequence of four numbers
+* There are many more ways of pattern matching on this string that you can try out for yourself on regex101.com
 
 
 
