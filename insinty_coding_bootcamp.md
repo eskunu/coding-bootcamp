@@ -77,7 +77,7 @@ First, visit https://regex101.com/ and copy the body of text below and paste int
 ### Exercise 1 - Premise:
 Search for one of the values in the block of text above, like you would on Google, by typing the string you're searching for in the *REGULAR EXPRESSION* field at the top of the site.
 
-![String search](images/string1.PNG "String search")
+![String search](images/string1.png "String search")
 
 If your search or results are different; don't worry. The important thing to note is that whatever you're searching for, if there is a match, is highlighted in the body below. Also note the number of matches on the right. In this case, there was 1 match.
 
