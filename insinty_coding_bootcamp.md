@@ -4,23 +4,23 @@ eskunu is hosting a coding bootcamp to teach others about computer coding using 
 
 # Why Code?
 
-Coding is used for applications, such as web design, Discord bots, game addons, (WoW addons are written in LUA, for example), as well as to manage finances, automate Desktop tasks, and write virtual simulations (like in structural engineering, mathematics, chemistsry, and so on).
+Coding is used for applications, such as web design, Discord bots, game addons, (WoW addons are written in LUA, for example), as well as to manage finances, automate Desktop tasks, and write virtual simulations (like in structural engineering, mathematics, chemistry, and so on).
 
 # Why Python?
 
-Python is one of the most popular programming languages available today, has been fully-supported 15+ years and is very feature-rich to perform a variety of tasks. It is highly intuitive, and easy to use and to learn compared to other languages.
+Python is one of the most popular programming languages available today, has been fully-supported 15+ years and is very feature-rich to perform a variety of tasks. It is highly intuitive, and easy to use and learn compared to other languages.
 
 # What You'll Learn
 
+- Interact with files and folders
 - Perform text-search and structured data searches to retrieve specific information from files
 - Simple math functions that are useful or required for other more advanced functions
-- Interact with files and folders
 - Interact with websites
 - Various coding functions and data structures
 
 # What You'll Build
 - Clocks & Calculators
-- File backup application
+- A File backup application
 - Databases
 - A price matcher to find the best deals on the internet
 - Read text from images (useful for reading signs in pictures, online menus, receipts, and others)
@@ -37,8 +37,7 @@ Please visit https://code.visualstudio.com/ and download Visual Studio code.
 
 ## Download Python
 
-Python is the engine that drives code written in Python
- Please visit https://www.python.org/downloads/release/python-387/ and download Python (Python 3.8.7)
+Python is the engine that drives code written in Python. Please visit https://www.python.org/downloads/release/python-387/ and download Python (Python 3.8.7)
 
  ## Start Powershell
 
@@ -47,10 +46,10 @@ Python is the engine that drives code written in Python
 ![Windows Powershell](images/powershell.png "Windows Powershell")
 
 Once you open Windows Powershell you will receive a prompt that looks like this:
+(Note that your exact directory may be a little different)
 
 ![Windows Powershell](images/powershell1.PNG "Windows Powershell")
 
-Note your exact directory may be a little different.
 
 ## Create a Working Directory
 
@@ -64,9 +63,9 @@ Within Powershell you can create a directory by typing these commands one line a
 
 # Lessons
 
-## L: Pattern Searching
+## Lesson 1: Pattern Searching
 
-Pattern searching is a way to search for certain variations or combinations of letters, numbers, or any other UTF-8 based character within a body of text. It is highly useful for extracting specific bits of information from an unformatted data source, such as HTML pages or Word documents, and is commonly used in finance, healthcare, cyber security, and accounting, among others. To avoid confusion in the future, we will use the term *regular expression* when talking about this form of pattern searches.
+Pattern searching is a way to search for certain variations or combinations of letters, numbers, or any other UTF-8 based character within a body of text. It is highly useful for extracting specific bits of information from an unformatted data source, such as HTML pages or Word documents, and is commonly used in finance, healthcare, cyber security, and accounting, among others. To avoid confusion in the future, we will use the term *regular expression* when talking about this form of pattern searching.
 
 First, visit https://regex101.com/ and copy the body of text below and paste into the *TEST STRING* body on the website.
 
@@ -91,12 +90,12 @@ Note this method is looking for individual characters. To search for an entire s
 
 You'll notice the search returned words, or in this case first and last names. But how would you search for the first and last name together, with the space in between?
 
-## Exercise 2 Phrase search
+### Exercise 2 Phrase search
 To search for grammar structures, simply introduce the grammar or punctuation pattern within the brackets, or create new brackets.
 
 For example, to search for first and last names in this text, all that is needed is to add a space ("`\s`") to the regular expression. This will suffice: `[A-z\s]`
 
-
+### Exercise 3 
 
 
 ## L: Print
