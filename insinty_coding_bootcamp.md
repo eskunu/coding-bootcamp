@@ -109,7 +109,7 @@ But what if you want the whole phone number intact, including the dashes? There 
 
 ![String search](images/string2.png "String search")
 
-## L: Running Code
+## Lesson 2: Running Code
 
 To run code in Python you need a Python script and a way to call the script. Let's start with the first by writing several "Print" statements
 
@@ -129,12 +129,25 @@ In your editor write the following and save to ex1.py in your working directory:
 
     print("A new line was created, but nothing else!")
 
-
 Save the code above to ex1.py. Open PowerShell.exe using the instructions above. Within the PowerShell terminal type `cd` followed by a space and your working directory (remember these steps as you'll have to repeat them many times) like this: `cd C:\Users\directory\directory\`. Once you are in the directory containing your script simply type `python.exe ex1.py` in PowerShell.
 
 ![String search](images/string3.png "String search")
 
-## L: Strings + concatonation
+Try creating your own print statements.
+
+## Lesson 3: Variables and Data Types
+
+A variable is simply a container that stores information. The information it stores is a type of data (or "data type"). For example:
+
+    information = "information"
+    lists = [1,23,35]
+    this_is_the_variable = 'This is the information to be stored in the variable. It is of the "string" type'
+    this_is_another_variable = ["This is a Pythonic list (or an array in other languagges)"]
+    this_is_another_variable2 = ["You", "can", "store", "all", "types", "of", information, "in", lists]
+    an_example = "You can name a variable anything, as long as it begins with a letter and it can't contain special characters (except underscore or dash)"
+
+
+
 ## L: Variables
 ## L: String concatonation using variables
 ## L: Math
